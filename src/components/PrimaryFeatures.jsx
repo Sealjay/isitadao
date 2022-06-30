@@ -12,27 +12,33 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Transparency',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "DAOs can help to improve transparency and accountability within an organization, fostering a sense of solidarity among members, as they are able to directly influence the decision-making process..",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Control',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Control within DAOs helps to ensure that all members are aware of what is happening within the organization, and that decisions are made in a transparent and accountable manner.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Empowerment',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "DAOs can help to decentralize power and decision-making within an organization, empowering individuals.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Efficiency',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'DAOs can help to increase the efficiency of an organization, and help to reduce the overall costs of running an organization.',
+    image: screenshotReporting,
+  },
+  {
+    title: 'Flexibility',
+    description:
+      'Control within DAOs allows members to adapt the organization to changing circumstances more easily, as they are able to directly influence the decision-making process.',
     image: screenshotReporting,
   },
 ]
@@ -59,7 +65,7 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-red-600 pt-20 pb-28 sm:py-32"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-[44%] -translate-y-[42%]">
         <Image
@@ -74,11 +80,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            DAOs are generally pointless
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+          <p className="mt-6 text-lg tracking-tight text-red-100">
+            <em>But</em> there are good ideas beneath the surface.
           </p>
         </div>
         <Tab.Group
@@ -105,8 +110,8 @@ export function PrimaryFeatures() {
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
-                              ? 'text-blue-600 lg:text-white'
-                              : 'text-blue-100 hover:text-white lg:text-white'
+                              ? 'text-red-600 lg:text-white'
+                              : 'text-red-100 hover:text-white lg:text-white'
                           )}
                         >
                           <span className="absolute inset-0 rounded-full lg:rounded-r-none lg:rounded-l-xl" />
@@ -118,7 +123,7 @@ export function PrimaryFeatures() {
                           'mt-2 hidden text-sm lg:block',
                           selectedIndex === featureIndex
                             ? 'text-white'
-                            : 'text-blue-100 group-hover:text-white'
+                            : 'text-red-100 group-hover:text-white'
                         )}
                       >
                         {feature.description}
@@ -136,7 +141,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="relative mt-10 aspect-[1085/730] w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="relative mt-10 aspect-[1085/730] w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-red-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         src={feature.image}
                         alt=""

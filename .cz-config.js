@@ -2,7 +2,7 @@ module.exports = {
     types: [
       { value: "feat", name: "feat:     A new feature" },
       { value: "fix", name: "fix:      A bug fix" },
-        { value: "content", name: "content:     DAO content changes" },
+        { value: "content", name: "content:  DAO content changes" },
       { value: "docs", name: "docs:     Documentation only changes" },
       {
         value: "style",

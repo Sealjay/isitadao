@@ -25,7 +25,7 @@ export default function Register() {
               Already registered?{' '}
               <Link
                 href="/login"
-                className="font-medium text-blue-600 hover:underline"
+                className="font-medium text-red-600 hover:underline"
               >
                 Sign in
               </Link>{' '}
@@ -84,7 +84,7 @@ export default function Register() {
             <Button
               type="submit"
               variant="solid"
-              color="blue"
+              color="red"
               className="w-full"
             >
               <span>
