@@ -43,7 +43,7 @@ const features = [
   },
 ]
 
-export function PrimaryFeatures() {
+export function DAOCharacteristics() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {
@@ -63,8 +63,8 @@ export function PrimaryFeatures() {
 
   return (
     <section
-      id="features"
-      aria-label="Features for running your books"
+      id="characteristics"
+      aria-label="Characteristics of a DAO"
       className="relative overflow-hidden bg-red-600 pt-20 pb-28 sm:py-32"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-[44%] -translate-y-[42%]">
