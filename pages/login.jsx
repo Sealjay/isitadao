@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { AuthLayout } from '@/components/AuthLayout'
-import { Button } from '@/components/Button'
-import { TextField } from '@/components/Fields'
-import { Logo } from '@/components/Logo'
+import { AuthLayout } from '@/../../components/AuthLayout'
+import { Button } from '@/../../components/Button'
+import { TextField } from '@/../../components/Fields'
+import { Logo } from '@/../../components/Logo'
 
 export default function Login() {
   return (
@@ -14,7 +14,7 @@ export default function Login() {
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
-          <Link href="/" aria-label="Home">
+          <Link href="/pages" aria-label="Home">
             <Logo className="h-10 w-auto" />
           </Link>
           <div className="mt-20">
@@ -24,7 +24,7 @@ export default function Login() {
             <p className="mt-2 text-sm text-gray-700">
               Don’t have an account?{' '}
               <Link
-                href="/register"
+                href="/pages/register"
                 className="font-medium text-red-600 hover:underline"
               >
                 Sign up
@@ -33,7 +33,7 @@ export default function Login() {
             </p>
           </div>
         </div>
-        <form action="#" className="mt-10 grid grid-cols-1 gap-y-8">
+        <form action="pages/login#" className="mt-10 grid grid-cols-1 gap-y-8">
           <TextField
             label="Email address"
             id="email"

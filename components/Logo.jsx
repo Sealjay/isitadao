@@ -5,15 +5,14 @@ export function Logo(props) {
       aria-hidden="true"
       {...props}
       xmlns="http://www.w3.org/2000/svg"
-      class="ionicon"
       viewBox="0 0 512 512"
     >
       <path
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
         d="M344 280l88-88M232 216l64 64M80 320l104-104"
       />
       <circle
@@ -22,9 +21,9 @@ export function Logo(props) {
         r="24"
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
       />
       <circle
         cx="320"
@@ -32,9 +31,9 @@ export function Logo(props) {
         r="24"
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
       />
       <circle
         cx="208"
@@ -42,9 +41,9 @@ export function Logo(props) {
         r="24"
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
       />
       <circle
         cx="56"
@@ -52,9 +51,9 @@ export function Logo(props) {
         r="24"
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="32"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="32"
       />
     </svg>
   )

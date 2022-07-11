@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { AuthLayout } from '@/components/AuthLayout'
-import { Button } from '@/components/Button'
-import { SelectField, TextField } from '@/components/Fields'
-import { Logo } from '@/components/Logo'
+import { AuthLayout } from '@/../../components/AuthLayout'
+import { Button } from '@/../../components/Button'
+import { SelectField, TextField } from '@/../../components/Fields'
+import { Logo } from '@/../../components/Logo'
 
 export default function Register() {
   return (
@@ -14,7 +14,7 @@ export default function Register() {
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
-          <Link href="/" aria-label="Home">
+          <Link href="/pages" aria-label="Home">
             <Logo className="h-10 w-auto" />
           </Link>
           <div className="mt-20">
@@ -24,7 +24,7 @@ export default function Register() {
             <p className="mt-2 text-sm text-gray-700">
               Already registered?{' '}
               <Link
-                href="/login"
+                href="/pages/login"
                 className="font-medium text-red-600 hover:underline"
               >
                 Sign in
@@ -34,7 +34,7 @@ export default function Register() {
           </div>
         </div>
         <form
-          action="#"
+          action="pages/register#"
           className="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2"
         >
           <TextField

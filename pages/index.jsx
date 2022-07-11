@@ -1,13 +1,13 @@
 import Head from 'next/head'
 
-import { CallToAction } from '@/components/CallToAction'
-import { FAQs } from '@/components/Faqs'
-import { Footer } from '@/components/Footer'
-import { Header } from '@/components/Header'
-import { Hero } from '@/components/Hero'
-import { DAOCharacteristics } from '@/components/DAOCharacteristics'
-import { SecondaryFeatures } from '@/components/SecondaryFeatures'
-import { Tweets } from '@/components/Tweets'
+import { CallToAction } from '@/../../components/CallToAction'
+import { FAQs } from '@/../../components/Faqs'
+import { Footer } from '@/../../components/Footer'
+import { Header } from '@/../../components/Header'
+import { Hero } from '@/../../components/Hero'
+import { DAOCharacteristics } from '@/../../components/DAOCharacteristics'
+import { SecondaryFeatures } from '@/../../components/SecondaryFeatures'
+import { Tweets } from '@/../../components/Tweets'
 
 export default function Home() {
   return (

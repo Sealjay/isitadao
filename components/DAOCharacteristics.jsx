@@ -3,43 +3,38 @@ import Image from 'next/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import { Container } from './Container'
 
 const features = [
   {
     title: 'Transparency',
     description:
       "DAOs can help to improve transparency and accountability within an organization, fostering a sense of solidarity among members, as they are able to directly influence the decision-making process..",
-    image: screenshotPayroll,
+    image: '/images/screenshots/expenses.png',
   },
   {
     title: 'Control',
     description:
       "Control within DAOs helps to ensure that all members are aware of what is happening within the organization, and that decisions are made in a transparent and accountable manner.",
-    image: screenshotExpenses,
+    image: '/images/screenshots/contacts.png',
   },
   {
     title: 'Empowerment',
     description:
       "DAOs can help to decentralize power and decision-making within an organization, empowering individuals.",
-    image: screenshotVatReturns,
+    image: '/images/screenshots/contacts.png',
   },
   {
     title: 'Efficiency',
     description:
       'DAOs can help to increase the efficiency of an organization, and help to reduce the overall costs of running an organization.',
-    image: screenshotReporting,
+    image: '/images/screenshots/contacts.png',
   },
   {
     title: 'Flexibility',
     description:
       'Control within DAOs allows members to adapt the organization to changing circumstances more easily, as they are able to directly influence the decision-making process.',
-    image: screenshotReporting,
+    image: '/images/screenshots/contacts.png',
   },
 ]
 
@@ -69,7 +64,7 @@ export function DAOCharacteristics() {
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-[44%] -translate-y-[42%]">
         <Image
-          src={backgroundImage}
+          src='./images/background-features.jpg'
           alt=""
           width={2245}
           height={1636}

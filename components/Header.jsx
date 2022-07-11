@@ -3,10 +3,10 @@ import Link from 'next/link'
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
-import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
-import { NavLink } from '@/components/NavLink'
+import { Button } from './Button'
+import { Container } from './Container'
+import { Logo } from './Logo'
+import { NavLink } from './NavLink'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -95,7 +95,7 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
+            <Link href="components/Header#" aria-label="Home">
               <Logo className="h-10 w-auto text-red-600" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">

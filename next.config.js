@@ -4,10 +4,6 @@ const nextConfig = {
   experimental: {
     newNextLinkBehavior: true,
   },
-  images: {
-    loader: 'cloudinary',
-    path: '/'
-  },
   trailingSlash: true,
 }
 
