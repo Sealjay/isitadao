@@ -1,10 +1,14 @@
 # IsItADAO
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![GitHub issues](https://img.shields.io/github/issues/Sealjay/isitadao)
+![GitHub](https://img.shields.io/github/license/Sealjay/isitadao)
+![GitHub Repo stars](https://img.shields.io/github/stars/Sealjay/isitadao?style=social)
 
 This repository is the underlying code for [isitadao.tech](http://isitadao.tech/), a tongue in cheek exploration of... whether or not an org structure is a DAO, or simply a solution in search of a problem.
 
-This repository is build on top of the Salient [Tailwind UI](https://tailwindui.com) site template and [Next.js](https://nextjs.org).
+This repository is build on top of the Salient [Tailwind UI](https://tailwindui.com) site template and [Next.js](https://nextjs.org), and deployed to [Azure Static Web Apps](https://docs.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs?WT.mc_id=AI-MVP-5004204)).
 
 ## Getting started with this repository
 
