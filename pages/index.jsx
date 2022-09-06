@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import { CallToAction } from '@/components/CallToAction'
-import { FAQs } from '@/components/Faqs'
+import { FAQs } from '@/components/FAQs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
