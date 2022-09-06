@@ -23,7 +23,6 @@ export default function Home () {
       <main>
         <Hero />
         <DAOCharacteristics />
-        <SecondaryFeatures />
         <CallToAction />
         <Tweets />
         <FAQs />

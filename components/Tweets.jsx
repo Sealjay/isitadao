@@ -19,6 +19,24 @@ const tweets = [
       username: 'cdixon',
       url: 'https://twitter.com/cdixon/status/1442201624487759874'
     }
+  ],
+  [
+    {
+      content:
+            'So there\'s @open_metaverse, @m3org, @neon_dao, @MetaAllianceDAO, and now @OpenMetaDAO 🤔😅',
+      username: 'dankvr',
+      url: 'https://twitter.com/dankvr/status/1461159547985403913'
+    },
+    {
+      content: 'So many of these things we need a Meta-MetaDAO to abstract over them.',
+      username: 'fordacious',
+      url: 'https://twitter.com/fordacious/status/1461166618143191041'
+    },
+    {
+      content: 'MoonDAO is evidence that China and the USA can work together. World peace through DAOs',
+      username: 'LarrotizPablo',
+      url: 'https://twitter.com/LarrotizPablo/status/1566079590761635841'
+    }
   ]
 ]
 
@@ -45,7 +63,7 @@ export function Tweets () {
             People on Twitter love DAOs
           </h2>
           <p className='mt-4 text-lg tracking-tight text-slate-700'>
-            Regardless of my view, DAOs have an incredibly strong mindshare amongst the twitter crowd.
+            Regardless of my view, DAOs have an incredibly strong mindshare amongst the twitter crowd. Tweets are very very much copyright of their authors.
           </p>
         </div>
         <ul className='mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3'>

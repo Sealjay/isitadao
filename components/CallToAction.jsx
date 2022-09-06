@@ -27,7 +27,7 @@ export function CallToAction () {
           <p className='mt-4 text-lg tracking-tight text-white'>
             So, you think you have a DAO. It may well meet all the characteristics of a DAO. But did society have a solution to get already? Or are there potential risks with your DAO?
           </p>
-          <Button href='/register' color='white' className='mt-10'>
+          <Button href='/register' color='white' className='mt-10 hidden'>
             Investigate my DAO
           </Button>
         </div>

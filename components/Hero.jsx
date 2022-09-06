@@ -24,7 +24,7 @@ export function Hero() {
         definitely exist; but what problem are they solving? Do we already have
         a solution for these issues?
       </p>
-      <div className="mt-10 flex justify-center gap-x-6">
+      <div className="mt-10 flex justify-center gap-x-6 hidden">
         <Button href="/isitadao">Is it a DAO?</Button>
         <Button href="/whatisadao" variant="outline">
             <svg
