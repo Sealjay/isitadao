@@ -2,7 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./components/*.{js,jsx}','./pages/*.{js,jsx}',],
+  content: ['./components/*.{js,jsx}', './pages/*.{js,jsx}'],
   theme: {
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -17,20 +17,20 @@ module.exports = {
       '6xl': ['3.75rem', { lineHeight: '1' }],
       '7xl': ['4.5rem', { lineHeight: '1.1' }],
       '8xl': ['6rem', { lineHeight: '1' }],
-      '9xl': ['8rem', { lineHeight: '1' }],
+      '9xl': ['8rem', { lineHeight: '1' }]
     },
     extend: {
       borderRadius: {
-        '4xl': '2rem',
+        '4xl': '2rem'
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        display: ['Lexend', ...defaultTheme.fontFamily.sans],
+        display: ['Lexend', ...defaultTheme.fontFamily.sans]
       },
       maxWidth: {
-        '2xl': '40rem',
-      },
-    },
+        '2xl': '40rem'
+      }
+    }
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/forms')]
 }

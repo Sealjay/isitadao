@@ -1,5 +1,7 @@
 # IsItADAO
 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 This repository is the underlying code for [isitadao.tech](http://isitadao.tech/), a tongue in cheek exploration of... whether or not an org structure is a DAO, or simply a solution in search of a problem.
 
 This repository is build on top of the Salient [Tailwind UI](https://tailwindui.com) site template and [Next.js](https://nextjs.org).
